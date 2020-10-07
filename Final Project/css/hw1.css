@@ -1,0 +1,111 @@
+body{
+    padding: 10px;
+    margin: 1%;
+}
+header{
+    background-color: #000000;
+    padding: 30px;
+    background-image: url("../images/flywheel.jpg");
+    background-color: #ABCDFE;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+h2{
+    color: #000000;
+}
+
+.left {
+    background-color: #808000;
+    width: 24%;
+    float:left;
+    padding: 5% 0%;
+}
+
+.right {
+    width:74%;
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.left img {
+    display: block;
+   	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #000000;
+	margin-bottom: 30px;
+}
+    
+nav{
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+	text-align: center;
+
+}
+nav a{
+	background-color: rgba(218,234,213,0.60);
+	color: #000000;
+	display: inline-block;
+	margin: 1%;
+	width :15%;
+    height: 5%;
+    padding: 2%;
+	text-decoration: none; 
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px; 
+}
+.active{
+    background-color: #FFFFFF;
+    color:  #001FFF ;
+}
+
+table{
+    font-family: georgia, arial, times;
+    font-size: small;
+    font-style: oblique;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 150%;
+}
+
+table th{
+    background-image: url("../images/flywheel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background: linear-gradient(#4735BC , #5056D3);
+    background: -webkit-linear-gradient(#4735BC, #5056D3);
+    background: -o-linear-gradient(#4735BC, #5056D3);
+    background: -moz-linear-gradient(#4735BC, #5056D3);
+    border: 1px solid;
+    border-radius: 5px 5px 0 0;
+    border-bottom: thick solid;
+    padding: 0.75%;
+    text-align: center;
+}
+
+table tr>td{
+    opacity: 0.8;
+    text-align: center;
+    padding: 0.5%;
+    color: #000000;
+    background-color: #48BFE5;
+    border-radius: 2px;
+    /*text-shadow: 0 0 3px #000000;*/
+}
+
+table tr >:first-child{
+    text-align: left;
+}
+
+table tr:hover td{
+    opacity: 0.6;
+}
